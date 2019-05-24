@@ -21,7 +21,7 @@ WEST BENGAL,MATHURAPUR,12744,Purna Chandra Naiya,SUCI(C),0,Graduate Professional
 # About data
 
 - ADR (Association for Democratic Reforms) made affidavit data available for 7928 parliamentary candidates out of 8026 polled candidates.
-- Certain portions of a candidate's affidavit data can seem erroneous. E.g. missing age values are replaced with integers 0 or 1.
+- Certain portions of a candidate's affidavit data can seem erroneous (0 or 1 for missing age values) due to missing age data.
 
 # Data cleaning methodology
 
