@@ -1,11 +1,11 @@
-# parliamentary-candidates-affidavit-data
-Data scraped from myneta.info for years 2004 to 2019 general elections.
+# Parliamentary Candidates Affidavit Data
+Data scraped from http://myneta.info/ for years 2004 to 2019 general elections.
 
 ```CSV
 State,Constituency,ID,Candidate,Party,CriminalCases,Education,TotalAssets,TotalLiabilities,Year,Age,Cash,Jewellerygivedetailsweightvalue,AgriculturalLand,NonAgriculturalLand,CommercialBuildings,ResidentialBuildings,Women,Winner,ConstituencyType,ParentInfo,ReturningCandidate,unique_id
 ```
 
-All columns except `unique_id` are from myneta.info website. `unique_id` is a derived column assigned for each candidate using string matching and approximation algorithms.
+All columns except `unique_id` are from http://myneta.info/ website. `unique_id` is a derived column assigned for each candidate using string matching and approximation algorithms.
 
 `unique_id` is useful to track changes in candidates wealth (assets, liabilities, cash, jewellery etc.), land over the years.
 
@@ -23,6 +23,6 @@ WEST BENGAL,MATHURAPUR,12744,Purna Chandra Naiya,SUCI(C),0,Graduate Professional
 - ADR (Association for Democratic Reforms) made affidavit data available for 7928 parliamentary candidates out of 8026 polled candidates.
 - Certain portions of a candidate's affidavit data is erroneous (e.g. `4` or `1` for missing age values) due to either inaccurate data entry during affidavit filing or during the data conversion (from analog to digital) or missing age data (in which case the value is `0`).
 
-# Data cleaning methodology
+# Unique ID creation methodology
 
 To be expanded
